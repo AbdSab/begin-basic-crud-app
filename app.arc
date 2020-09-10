@@ -2,9 +2,11 @@
 begin-app
 
 @http
-get  /todos
-post /todos
-post /todos/delete
+get  /folder/:name
+post /folder/:name
+put /folder/:name
+delete /folder/:name
+
 
 @tables
 data
